@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: 'Dockerfile'
+    container_name: api-container
+    ports:
+      - "8000:3000"

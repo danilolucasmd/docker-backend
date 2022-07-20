@@ -1,0 +1,22 @@
+{
+  "name": "docker-backend",
+  "version": "1.0.0",
+  "description": "Simple backend containerized with docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilolucasmd/docker-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilolucasmd/docker-backend/issues"
+  },
+  "homepage": "https://github.com/danilolucasmd/docker-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
